@@ -388,10 +388,6 @@ cursor: pointer;
 
 
 
-
-
-
-
   @media only screen and (max-width: 576px) {
 
     /* navbar start */
@@ -452,7 +448,7 @@ cursor: pointer;
 .mainimgbox{
   width: 85%;
 }
-      /* section1 end */
+/* section1 end */
 /* section2 start */
 .section2boxContent{
   flex-direction: column;
@@ -467,4 +463,26 @@ cursor: pointer;
   padding:110px  0px 90px 0px;
 }
 /* section2 end */
+
+/* section3 start */
+.kidsphotoLeft{
+  display: none;
+}
+.kidphotoRight{
+  width: 100%;
+}
+.sec3container{
+  width: 95%;
+}
+.kidphotoRight .rightCard h3{
+  padding:38px 20px 20px 20px;
+  font-size: 13px;
+  
+}
+.shortButtonDate{
+  padding: 4px 15px;
+  font-size: 13.34px;
+}
+
+/* section3 end */
 }
